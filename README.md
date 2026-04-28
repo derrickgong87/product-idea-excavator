@@ -2,6 +2,10 @@
 
 > A bilingual product discovery Skill that turns vague product ideas into sharp product thinking and high-quality PRDs.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Language](https://img.shields.io/badge/language-English%20%7C%20中文-blue.svg)](docs/I18N.md)
+[![PRD](https://img.shields.io/badge/output-PRD-orange.svg)](product-idea-excavator/references/en/prd-template.md)
+
 Languages: English | [中文说明](docs/README.zh-CN.md)
 
 See [Bilingual Strategy](docs/I18N.md) for how the Skill serves Chinese and English users without mixing the two experiences.
@@ -11,6 +15,37 @@ Product Idea Excavator is built for founders, builders, product managers, indie 
 It does not start by writing a plan.
 
 It starts by asking better questions.
+
+## At A Glance
+
+Product Idea Excavator is for the messy early stage before a product spec exists.
+
+It helps an AI assistant behave less like a passive note-taker and more like a strong product partner:
+
+- it leads the interview instead of waiting for the user to structure the idea
+- it asks one high-leverage question at a time
+- it separates real demand from casual interest
+- it challenges weak assumptions without derailing the conversation
+- it narrows the idea into a concrete MVP wedge
+- it asks about technical stack, model choices, data, permissions, safety, and cost
+- it produces a detailed PRD only after the user confirms discovery is complete
+
+The result is not just a cleaner document. The result is better product thinking before the document exists.
+
+## Who It Is For
+
+- Founders turning a rough startup idea into a testable product
+- Product managers preparing a PRD from scattered conversations
+- Indie builders deciding what to build first
+- AI product teams clarifying model role, data flow, and failure modes
+- Engineers who need a product-quality spec before implementation
+- Creators and operators who know the pain but do not yet know the product shape
+
+## Commercial Use
+
+This project is open source under the MIT License.
+
+You can use it for personal, commercial, internal, client, educational, or startup work. You can copy it, modify it, package it into your own workflow, and use it to produce PRDs for real products, as long as you follow the license terms.
 
 ## Why This Exists
 
@@ -45,6 +80,13 @@ This repository uses one Skill for both Chinese and English users.
 - Mixed prompt -> follow the language of the product idea itself
 
 The Skill keeps each session in one language unless the user explicitly asks for bilingual output. This avoids splitting the project into separate repositories while keeping the user experience clean.
+
+Why this matters:
+
+- English users should not feel they are using a translated Chinese project.
+- Chinese users should not be pushed into English terminology unless it is natural.
+- Maintainers should not have to manage two separate repos, issue trackers, release histories, and communities.
+- The same product discovery method should work across both languages with language-specific examples and templates.
 
 ## What Makes It Different
 
@@ -106,6 +148,64 @@ When the user confirms there is nothing else to add, the Skill synthesizes a PRD
 - risks
 - roadmap
 
+### 6. It carries a product-quality bar inside the Skill
+
+The Skill includes reference playbooks for:
+
+- discovery questions
+- PRD structure
+- product sense
+- technical stack decisions
+- AI product design
+- example interview patterns
+
+This makes the behavior more consistent than a generic prompt. The assistant can consult the relevant reference only when needed, keeping the conversation focused while preserving depth.
+
+## How It Works
+
+The Skill follows a simple but powerful loop:
+
+1. Absorb the user's latest answer.
+2. Extract one confirmed fact, assumption, or risk.
+3. Offer options or a recommendation when the idea is immature.
+4. Ask the next most important question.
+5. Keep an internal map of users, problems, demand evidence, MVP scope, technical choices, risks, and open questions.
+6. Generate the PRD after the user confirms the discovery is complete.
+
+It does not try to ask every possible question at once. A good session should feel like a serious product conversation, not a form.
+
+## What The PRD Covers
+
+The final PRD can include:
+
+- product name and one-sentence summary
+- background and opportunity
+- target users and personas
+- problem definition
+- current alternatives
+- demand evidence
+- narrowest wedge
+- value proposition
+- goals and non-goals
+- MVP scope
+- core user journeys
+- functional requirements
+- non-functional requirements
+- UX requirements
+- data requirements
+- AI/model requirements
+- technical stack recommendation
+- system architecture
+- roles and permissions
+- integrations
+- admin and operations needs
+- metrics
+- edge cases and failure states
+- premise challenges and alternatives
+- risks and validation plan
+- roadmap
+- open questions
+
 ## Example Use Cases
 
 ### Example 1: Voice Character App
@@ -126,6 +226,13 @@ The Skill will explore:
 Possible PRD direction:
 
 > A curated voice-based character intelligence app where users bring real questions and enter immersive conversations with high-quality simulated characters built from public sources, clear boundaries, and non-misleading voice design.
+
+Why the Skill helps:
+
+- It prevents the idea from collapsing into "just make many characters."
+- It asks what conversations users actually want to have.
+- It surfaces identity, consent, voice, safety, knowledge-source, and evaluation questions early.
+- It pushes toward a first version that can be tested before building a huge character library.
 
 ### Example 2: AI Customer Feedback Analyst
 
@@ -150,6 +257,12 @@ Possible MVP:
 - let the product manager select insights
 - generate a PRD draft with assumptions clearly marked
 
+Why the Skill helps:
+
+- It distinguishes summarization from decision support.
+- It asks who owns the workflow today and what output they trust.
+- It forces the product to cite evidence instead of inventing product strategy.
+
 ### Example 3: Internal Knowledge Assistant
 
 Input:
@@ -164,6 +277,51 @@ The Skill will ask:
 - whether search, chat, workflow automation, or expert routing is the real product
 - what permission model is required
 - whether RAG is actually needed in v1
+
+Why the Skill helps:
+
+- It asks whether the real product is search, chat, workflow automation, or expert routing.
+- It treats permissions and stale knowledge as product requirements, not late engineering details.
+- It can recommend a practical MVP stack instead of defaulting to an overbuilt architecture.
+
+### Example 4: Churn Prediction For Customer Success
+
+Input:
+
+> I want to build a SaaS product for customer success teams that predicts churn and tells them what action to take.
+
+The Skill will explore:
+
+- which customer segment has enough clean data for the first version
+- whether the user needs prediction, prioritization, playbooks, or workflow automation
+- what current signals customer success teams already trust
+- whether the product should start as an alerting tool, dashboard, or action workspace
+- what false positives and false negatives cost
+- what model quality bar is required before users rely on it
+
+Possible MVP:
+
+- connect one source of customer activity data
+- compute a simple risk score with transparent reasons
+- show the top accounts needing attention
+- recommend one next action per account
+- let the user mark whether the recommendation was useful
+
+### Example 5: Personal Growth App
+
+Input:
+
+> I want to build an app for personal growth, but I do not know the exact product yet.
+
+The Skill will not get stuck. It can suggest several possible directions:
+
+- daily reflection and journaling
+- decision coaching
+- goal tracking
+- emotional pattern discovery
+- habit accountability
+
+Then it will recommend a path, ask the user to choose or correct it, and continue into target users, first-use moment, retention loop, safety boundaries, and MVP.
 
 ## Repository Structure
 
