@@ -471,10 +471,10 @@ Then it recommends a path, asks the user to choose or correct it, and continues 
 Send this prompt to your coding agent:
 
 ```text
-Please install this Claude Skill from GitHub:
+Please install this Skill from GitHub:
 https://github.com/derrickgong87/product-idea-excavator
 
-Clone the repository, copy the product-idea-excavator/ folder into my local Claude Skills directory, verify that product-idea-excavator/SKILL.md is installed, and then tell me how to start a new session and test it.
+Clone the repository, copy the product-idea-excavator/ folder into my local  Skills directory, verify that product-idea-excavator/SKILL.md is installed, and then tell me how to start a new session and test it.
 ```
 
 After installation, start a new session and test it with:
@@ -491,7 +491,7 @@ Clone the repository:
 git clone https://github.com/derrickgong87/product-idea-excavator.git
 ```
 
-Copy this folder into your local Claude Skills directory:
+Copy this folder into your local  Skills directory:
 
 ```text
 product-idea-excavator/
@@ -599,9 +599,9 @@ MIT License. See [LICENSE](LICENSE).
 
 # 中文
 
-> 一个开源 Claude Skill，用来把模糊的产品想法，挖掘成高质量的产品访谈、产品判断和 PRD。
+> 一个开源  Skill，用来把模糊的产品想法，挖掘成高质量的产品访谈、产品判断和 PRD。
 
-Product Idea Excavator 是一个中英双语 Claude Skill，适合创业者、产品经理、独立开发者、AI 产品团队，以及任何脑海里有产品想法但还没完全想清楚的人。
+Product Idea Excavator 是一个中英双语  Skill，适合创业者、产品经理、独立开发者、AI 产品团队，以及任何脑海里有产品想法但还没完全想清楚的人。
 
 它不会一上来就写计划。
 
@@ -1058,10 +1058,10 @@ Skill 不会卡住。它会先给出几个方向：
 把这句话发给你的 coding agent：
 
 ```text
-请帮我从 GitHub 安装这个 Claude Skill：
+请帮我从 GitHub 安装这个  Skill：
 https://github.com/derrickgong87/product-idea-excavator
 
-请 clone 这个仓库，把 product-idea-excavator/ 文件夹复制到我本地的 Claude Skills 目录中，确认 product-idea-excavator/SKILL.md 已安装，然后告诉我如何开启一个新会话并测试它。
+请 clone 这个仓库，把 product-idea-excavator/ 文件夹复制到我本地的  Skills 目录中，确认 product-idea-excavator/SKILL.md 已安装，然后告诉我如何开启一个新会话并测试它。
 ```
 
 安装完成后，开启新会话，用这句话测试：
@@ -1078,7 +1078,7 @@ Clone 这个仓库：
 git clone https://github.com/derrickgong87/product-idea-excavator.git
 ```
 
-把这个文件夹复制到本地 Claude Skills 目录：
+把这个文件夹复制到本地  Skills 目录：
 
 ```text
 product-idea-excavator/
