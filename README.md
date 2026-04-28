@@ -601,7 +601,7 @@ MIT License. See [LICENSE](LICENSE).
 
 > 一个开源  Skill，用来把模糊的产品想法，挖掘成高质量的产品访谈、产品判断和 PRD。
 
-Product Idea Excavator 是一个中英双语  Skill，适合创业者、产品经理、独立开发者、AI 产品团队，以及任何脑海里有产品想法但还没完全想清楚的人。
+Product Idea Excavator 是一个用于打磨产品的Skill，适合创业者、产品经理、独立开发者、AI 产品团队，以及任何脑海里有产品想法但还没完全想清楚的人。
 
 它不会一上来就写计划。
 
