@@ -54,7 +54,7 @@ Product Idea Excavator:
 User gives a rough idea -> assistant excavates the product -> assistant validates assumptions -> assistant narrows the MVP -> assistant produces a PRD.
 ```
 
-## What This Claude Skill Does
+## What This Product Skill Does
 
 Product Idea Excavator turns messy product ideas into structured product thinking.
 
@@ -641,7 +641,7 @@ Product Idea Excavator：
 用户给出模糊想法 -> 助手挖掘产品 -> 助手验证假设 -> 助手收敛 MVP -> 助手生成 PRD。
 ```
 
-## 这个 Claude Skill 能做什么
+## 这个 Product Skill 能做什么
 
 Product Idea Excavator 会把混乱的产品想法变成结构化的产品思考。
 
