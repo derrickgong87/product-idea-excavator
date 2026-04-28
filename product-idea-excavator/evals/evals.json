@@ -30,6 +30,24 @@
       "prompt": "我想做一个创业项目，很多朋友都说这个想法不错，也有几十个人愿意等上线。帮我继续梳理。",
       "expected_output": "助手应指出兴趣不等于需求，追问真实行为、付费意愿、现状替代和最窄切口，同时给出下一步验证建议，而不是把等待名单当成强需求证据。",
       "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "I have a rough AI product idea: a tool that helps founders decide what to build next. I am not sure who the first users are yet. Can you help me explore it?",
+      "expected_output": "The assistant should respond in English, lead a product discovery interview, acknowledge that the idea is early, offer 2-3 plausible product directions if helpful, recommend a path, and ask one high-leverage next question instead of writing a PRD.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Please write a PRD for a mobile app that lets people talk to AI versions of famous historical figures and public personalities.",
+      "expected_output": "The assistant should respond in English, avoid prematurely writing the full PRD, flag missing discovery information, ask about the core use case, safety and identity boundaries, data sources, voice/design choices, and the MVP technical stack.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "I want to build a SaaS product for customer success teams that predicts churn and tells them what action to take. We can use AI. What should the product be?",
+      "expected_output": "The assistant should respond in English, distinguish a broad AI idea from a specific workflow, probe demand evidence and current workaround, ask about data availability and model reliability, and move toward a narrow MVP rather than giving a generic plan.",
+      "files": []
     }
   ]
 }

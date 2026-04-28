@@ -1,6 +1,10 @@
 # Product Idea Excavator
 
-> A Chinese-first product discovery Skill that turns vague product ideas into sharp product thinking and high-quality PRDs.
+> A bilingual product discovery Skill that turns vague product ideas into sharp product thinking and high-quality PRDs.
+
+Languages: English | [中文说明](docs/README.zh-CN.md)
+
+See [Bilingual Strategy](docs/I18N.md) for how the Skill serves Chinese and English users without mixing the two experiences.
 
 Product Idea Excavator is built for founders, builders, product managers, indie hackers, and anyone who has a product idea that still lives mostly in their head.
 
@@ -31,6 +35,16 @@ It pushes on:
 - where the product may fail
 - what technical path is actually practical
 - when to stop exploring and synthesize a PRD
+
+## Bilingual By Design
+
+This repository uses one Skill for both Chinese and English users.
+
+- Chinese prompt -> Chinese interview -> Chinese PRD
+- English prompt -> English interview -> English PRD
+- Mixed prompt -> follow the language of the product idea itself
+
+The Skill keeps each session in one language unless the user explicitly asks for bilingual output. This avoids splitting the project into separate repositories while keeping the user experience clean.
 
 ## What Makes It Different
 
@@ -163,6 +177,13 @@ product-idea-excavator/
     tech-stack-playbook.md
     ai-product-playbook.md
     example-interviews.md
+    en/
+      prd-template.md
+      discovery-question-bank.md
+      product-sense-playbook.md
+      tech-stack-playbook.md
+      ai-product-playbook.md
+      example-interviews.md
   evals/
     evals.json
   demo/
@@ -171,6 +192,8 @@ product-idea-excavator/
 docs/
   INSTALL.md
   USAGE.md
+  README.zh-CN.md
+  I18N.md
   EXAMPLES.md
   EVALUATION.md
   SAFETY.md
@@ -182,6 +205,14 @@ docs/
 1. Copy `product-idea-excavator/` into your local Skills directory.
 2. Start a new session with your AI coding assistant.
 3. Ask something like:
+
+English:
+
+```text
+I have a product idea, but it is still fuzzy. Use product-idea-excavator to help me excavate it through questions.
+```
+
+中文：
 
 ```text
 我有一个产品 idea，但还不成熟。请用 product-idea-excavator 的方式来挖掘。
@@ -237,7 +268,7 @@ Planned improvements:
 - more realistic multi-turn evals
 - richer PRD examples
 - packaging scripts
-- multilingual support
+- additional language and domain packs
 - benchmark reports comparing this Skill against baseline planning behavior
 - domain-specific packs for AI apps, marketplaces, B2B SaaS, internal tools, and consumer apps
 
@@ -259,4 +290,3 @@ Read [Contributing](CONTRIBUTING.md).
 ## License
 
 MIT License. See [LICENSE](LICENSE).
-

@@ -7,7 +7,7 @@ This repository is designed to be published as an open-source Skill project.
 - Visibility: Public
 - License: MIT
 - Repository name: `product-idea-excavator`
-- Description: `Chinese-first product discovery Skill for turning vague product ideas into high-quality PRDs`
+- Description: `Bilingual product discovery Skill for turning vague product ideas into high-quality PRDs`
 - Topics:
   - `ai`
   - `product-management`
@@ -16,19 +16,20 @@ This repository is designed to be published as an open-source Skill project.
   - `startup`
   - `skills`
   - `ai-agents`
+  - `bilingual`
 
 ## One-Command Publish With GitHub CLI
 
 If GitHub CLI is installed and authenticated:
 
 ```powershell
-gh repo create product-idea-excavator --public --source=. --remote=origin --push --description "Chinese-first product discovery Skill for turning vague product ideas into high-quality PRDs"
+gh repo create product-idea-excavator --public --source=. --remote=origin --push --description "Bilingual product discovery Skill for turning vague product ideas into high-quality PRDs"
 ```
 
 Then add topics:
 
 ```powershell
-gh repo edit --add-topic ai --add-topic product-management --add-topic prd --add-topic product-discovery --add-topic startup --add-topic skills --add-topic ai-agents
+gh repo edit --add-topic ai --add-topic product-management --add-topic prd --add-topic product-discovery --add-topic startup --add-topic skills --add-topic ai-agents --add-topic bilingual
 ```
 
 ## Manual Publish
@@ -52,4 +53,3 @@ git push -u origin main
 - [ ] Examples are concrete
 - [ ] Safety boundaries are documented
 - [ ] Eval prompts are valid JSON
-

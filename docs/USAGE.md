@@ -1,5 +1,13 @@
 # Usage Guide
 
+## Choose A Language Naturally
+
+Use Chinese if you want a Chinese interview and PRD.
+
+Use English if you want an English interview and PRD.
+
+The Skill should keep the whole session in that language unless you explicitly ask for bilingual output.
+
 ## Start With A Rough Idea
 
 You do not need a mature product spec.
@@ -16,6 +24,14 @@ The Skill should respond by:
 - identifying early risks
 - offering possible product directions
 - asking the next strongest question
+
+English example:
+
+```text
+I want to build a voice app where users can say who they want to talk to, and the system creates a matching character for conversation.
+```
+
+The Skill should respond in English, clarify the product direction, surface risks, and ask the next strongest question.
 
 ## Let The Skill Lead
 
@@ -54,6 +70,12 @@ Say:
 
 The Skill should automatically produce a structured PRD.
 
+English:
+
+```text
+I confirm there is nothing else to add. Please summarize the PRD.
+```
+
 ## Good Session Pattern
 
 ```text
@@ -75,4 +97,3 @@ If you say:
 ```
 
 The Skill should still flag missing information and mark assumptions clearly.
-

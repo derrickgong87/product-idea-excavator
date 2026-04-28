@@ -2,7 +2,7 @@
 
 ## v0.1
 
-- Chinese-first product idea excavation Skill
+- bilingual product idea excavation Skill
 - PRD template
 - product sense playbook
 - technical stack playbook
@@ -27,10 +27,11 @@
 - benchmark reports comparing baseline planning vs. this Skill
 - multi-turn eval transcripts
 - PRD quality scoring examples
-- English version
+- language quality evals
 
 ## Future Ideas
 
+- additional language packs
 - interactive PRD generator
 - transcript-to-PRD workflow
 - role-specific review passes:
@@ -39,4 +40,3 @@
   - design review
   - safety review
 - domain-specific safety templates
-

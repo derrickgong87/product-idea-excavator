@@ -1,6 +1,6 @@
 # Installation
 
-Product Idea Excavator is a markdown-first Skill package.
+Product Idea Excavator is a bilingual, markdown-first Skill package.
 
 ## Install From This Repository
 
@@ -13,6 +13,7 @@ skills/
   product-idea-excavator/
     SKILL.md
     references/
+      en/
     evals/
     demo/
 ```
@@ -27,12 +28,19 @@ Try this prompt:
 我有一个产品想法，但还很模糊。请用产品想法挖掘器的方式来问我问题。
 ```
 
+Or this English prompt:
+
+```text
+I have a product idea, but it is still vague. Use product-idea-excavator to interview me and sharpen it.
+```
+
 Expected behavior:
 
 - It should not immediately write a PRD.
 - It should ask one high-value product discovery question.
 - It should identify missing assumptions.
 - It should eventually ask about technical implementation and MVP scope.
+- It should respond in the same language as the user's product idea.
 
 ## Manual Use Without Installing
 
@@ -49,4 +57,3 @@ Then paste its instructions into your assistant context, followed by your produc
 Pull the latest repository changes and replace the installed `product-idea-excavator/` folder.
 
 If you have local edits, back them up before replacing.
-
