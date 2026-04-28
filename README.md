@@ -1,6 +1,6 @@
 # Product Idea Excavator
 
-> An open-source Claude Skill for turning vague product ideas into rigorous product discovery interviews and high-quality PRDs.
+> An open-source Skill for turning vague product ideas into rigorous product discovery interviews and high-quality PRDs.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Language](https://img.shields.io/badge/language-English%20%7C%20中文-blue.svg)](docs/I18N.md)
