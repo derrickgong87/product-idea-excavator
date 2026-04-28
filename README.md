@@ -12,6 +12,8 @@ It does not start by writing a plan.
 
 It starts by asking better questions.
 
+阅读中文说明请向下拉↓
+
 ---
 
 # English
