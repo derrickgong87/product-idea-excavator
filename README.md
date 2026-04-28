@@ -6,11 +6,13 @@
 [![Language](https://img.shields.io/badge/language-English%20%7C%20中文-blue.svg)](docs/I18N.md)
 [![Output](https://img.shields.io/badge/output-PRD-orange.svg)](product-idea-excavator/references/en/prd-template.md)
 
-Product Idea Excavator is a bilingual Claude Skill for founders, product managers, indie builders, AI product teams, and anyone who has a product idea that still lives mostly in their head.
+Product Idea Excavator is an agent Skill for founders, product managers, indie builders, AI product teams, and anyone who has a product idea that still lives mostly in their head.
 
 It does not start by writing a plan.
 
 It starts by asking better questions.
+
+It extracts the concrete version of the product from your mind.
 
 [中文说明](#中文)
 
