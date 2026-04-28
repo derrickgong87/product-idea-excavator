@@ -12,7 +12,7 @@ It does not start by writing a plan.
 
 It starts by asking better questions.
 
-阅读中文说明请向下拉↓
+中文说明见 (https://github.com/derrickgong87/product-idea-excavator/edit/main/README.md#%E4%B8%AD%E6%96%87)
 
 ---
 
